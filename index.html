@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <!--==Poppinn Font==-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f18db7e20.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div class="hero">
+      <img src="img/blob_top.svg" class="blob_top">
+      <img src="img/blob_left.svg" class="blob_left">
+      <img src="img/blob_btm.svg" class="blob_btm">
+      <img src="img/wave.svg" class="wave">
+       <nav>
+           <a href="#"><img src="img/logo.png" class="logo"></a>
+           <ul>
+               <li><a href="#top">Home</a></li>
+               <li><a href="#portfolio">Porfolio</a></li>
+               <li><a href="#testimonials">Clients</a></li>
+               <li><a href="#about">About Us</a></li>
+               <li><a href="#footer">Contact</a></li>
+           </ul>
+           <a href="" class="btn">Get A Quote</a>
+       </nav>
+       
+       <div class="row">
+           <div class="col_1">
+               <img src="img/man.png">
+               <img src="img/element.png" class="element">
+           </div>
+           <div class="col_2">
+               <h1>Creative<br> <span>Marketing</span> Agency</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sint, impedit molestias laborum quae sit magni dolorem corporis qui facere repellendus iste. Nesciunt, dolorum, iusto.</p>
+               <a href="" class="btn">Learn More</a>
+           </div>
+       </div>
+   </div>
+   
+   <!--==Portfolio==-->
+   <section id="portfolio">
+   <div class="portfolio_title">
+       <h1>Our Portfolio</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea rem,<br> temporibus vero, unde eveniet.</p>
+   </div>
+    <div class="full_img" id="fullImgBox">
+      <img src="img/img1.jpg" id="fullImg">
+      <span onclick="closeFullImg()">X</span>
+  </div>
+   <div class="img_gallery">
+       <img src="img/img1.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img2.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img3.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img4.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img5.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img6.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img7.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img8.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img9.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img10.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img11.jpg" onclick="openFullImg(this.src)">
+       <img src="img/img12.jpg" onclick="openFullImg(this.src)">
+   </div>
+   <div class="portfolio_btn">
+   <a href="" class="btn">View All</a>
+   </div>
+   </section>
+   
+   <!-----testimonials----->
+   
+   <section id="testimonials">
+      <div class="testi_title">
+       <h1>What Our Clients Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Voluptatum, similique.</p>
+        </div>
+        <div class="row">
+            <div class="testimonial_col">
+                <img src="img/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eligendi sequi maiores nisi doloremque ducimus molestiae, autem nulla nam ullam ipsum eveniet explicabo reiciendis, repudiandae!</p>
+                    <h3>Karon Beken</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial_col">
+                <img src="img/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eligendi sequi maiores nisi doloremque ducimus molestiae, autem nulla nam ullam ipsum eveniet explicabo reiciendis, repudiandae!</p>
+                    <h3>Brandon Nick</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>  
+        </div>
+   </section>
+   
+   <section id="about">
+       <div class="about_title">
+           <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Voluptatum, similique.</p>
+       </div>
+       <div class="about_row">
+           <div class="col_1">
+               <img src="img/about.jpg">
+           </div>
+           <div class="col_2">
+               <h3>How we work</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque, excepturi deserunt officiis quam quos, ipsam commodi animi suscipit beatae, nesciunt vitae repellendus veritatis. Officiis beatae fugiat fuga, repellat exercitationem sapiente error, repellendus accusamus earum, unde, consequuntur mollitia tenetur neque!</p>
+               <a href="" class="btn">Read More</a>
+           </div>
+       </div>
+   </section>
+   
+   <!-----Contact Us----->
+   <section id="footer" class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col_md_3">
+                   <img src="img/footer_logo.png" class="footer_logo">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quibusdam sint, impedit molestias laborum quae sit magni<br> dolorem corporis qui facere repellendus iste. Nesciunt, dolorum, iusto.</p>
+               </div>
+               <div class="col_md_3">
+                <h4>Features</h4>
+                <p>Deals & Offers</p>
+                <p>Customer Reviews</p>
+                <p>Cancelation Policy</p>
+               </div>
+               <div class="col_md_3">
+                <h4>Quick Contact</h4>
+                <p><i class="fas fa-phone-square"></i> +1 012345678</p>
+                <p><i class="fas fa-envelope-square"></i> hello@example.com</p>
+                <p><i class="fas fa-home"></i> xyz Road, ABC City</p>
+               </div>
+               <div class="col_md_3">
+                <h4>Follow Us on</h4>
+                <p><a href=""><i class="fab fa-facebook-square"></i> </a>Facebook</p>
+                <p><a href=""><i class="fab fa-youtube-square"></i> </a>Youtube</p>
+                <p><a href=""><i class="fab fa-twitter-square"></i> </a>Twitter</p>
+               </div>
+           </div><hr>
+           <p class="copyright">Made with <i class="fas fa-heart"></i> by Kawsar Ahmad (2021)</p>
+       </div>
+   </section>
+   
+   <script>
+    
+       var fullImgBox = document.getElementById("fullImgBox");
+       var fullImg = document.getElementById("fullImg");
+       
+       function openFullImg(pic){
+           fullImgBox.style.display = "flex";
+           fullImg.src = pic;
+       }
+       
+       function closeFullImg(){
+           fullImgBox.style.display = "none";
+       }
+        
+    </script>
+    
+   <!--==Smooth scroll js==-->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    
+</body>
+</html>
